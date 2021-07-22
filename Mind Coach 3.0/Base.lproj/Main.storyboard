@@ -90,7 +90,7 @@
         <!--Entry View Controller-->
         <scene sceneID="nuo-hP-xcq">
             <objects>
-                <viewController storyboardIdentifier="New" id="Djn-a7-xbR" customClass="EntryViewController" customModule="Mind_Coach_3_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="new" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Djn-a7-xbR" customClass="EntryViewController" customModule="Mind_Coach_3_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ATt-Is-BZD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
