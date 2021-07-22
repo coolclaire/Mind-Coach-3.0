@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B504B4FE26A94486004519EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B4FD26A94486004519EC /* AppDelegate.swift */; };
+		B504B50026A94486004519EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B4FF26A94486004519EC /* SceneDelegate.swift */; };
+		B504B50226A94486004519EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B50126A94486004519EC /* ViewController.swift */; };
+		B504B50526A94486004519EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B504B50326A94486004519EC /* Main.storyboard */; };
+		B504B50826A94486004519EC /* Mind_Coach_3_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B504B50626A94486004519EC /* Mind_Coach_3_0.xcdatamodeld */; };
+		B504B50A26A94488004519EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B504B50926A94488004519EC /* Assets.xcassets */; };
+		B504B50D26A94488004519EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B504B50B26A94488004519EC /* LaunchScreen.storyboard */; };
+		B504B51826A94488004519EC /* Mind_Coach_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B51726A94488004519EC /* Mind_Coach_3_0Tests.swift */; };
+		B504B52326A94488004519EC /* Mind_Coach_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B52226A94488004519EC /* Mind_Coach_3_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B504B51426A94488004519EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B504B4F226A94486004519EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B504B4F926A94486004519EC;
+			remoteInfo = "Mind Coach 3.0";
+		};
+		B504B51F26A94488004519EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B504B4F226A94486004519EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B504B4F926A94486004519EC;
+			remoteInfo = "Mind Coach 3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B504B4FA26A94486004519EC /* Mind Coach 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind Coach 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504B4FD26A94486004519EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B504B4FF26A94486004519EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B504B50126A94486004519EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B504B50426A94486004519EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B504B50726A94486004519EC /* Mind_Coach_3_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mind_Coach_3_0.xcdatamodel; sourceTree = "<group>"; };
+		B504B50926A94488004519EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B504B50C26A94488004519EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B504B50E26A94488004519EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B504B51326A94488004519EC /* Mind Coach 3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind Coach 3.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504B51726A94488004519EC /* Mind_Coach_3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_Coach_3_0Tests.swift; sourceTree = "<group>"; };
+		B504B51926A94488004519EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B504B51E26A94488004519EC /* Mind Coach 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind Coach 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504B52226A94488004519EC /* Mind_Coach_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_Coach_3_0UITests.swift; sourceTree = "<group>"; };
+		B504B52426A94488004519EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B504B4F726A94486004519EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504B51026A94488004519EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504B51B26A94488004519EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B504B4F126A94486004519EC = {
+			isa = PBXGroup;
+			children = (
+				B504B4FC26A94486004519EC /* Mind Coach 3.0 */,
+				B504B51626A94488004519EC /* Mind Coach 3.0Tests */,
+				B504B52126A94488004519EC /* Mind Coach 3.0UITests */,
+				B504B4FB26A94486004519EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B504B4FB26A94486004519EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B504B4FA26A94486004519EC /* Mind Coach 3.0.app */,
+				B504B51326A94488004519EC /* Mind Coach 3.0Tests.xctest */,
+				B504B51E26A94488004519EC /* Mind Coach 3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B504B4FC26A94486004519EC /* Mind Coach 3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B504B4FD26A94486004519EC /* AppDelegate.swift */,
+				B504B4FF26A94486004519EC /* SceneDelegate.swift */,
+				B504B50126A94486004519EC /* ViewController.swift */,
+				B504B50326A94486004519EC /* Main.storyboard */,
+				B504B50926A94488004519EC /* Assets.xcassets */,
+				B504B50B26A94488004519EC /* LaunchScreen.storyboard */,
+				B504B50E26A94488004519EC /* Info.plist */,
+				B504B50626A94486004519EC /* Mind_Coach_3_0.xcdatamodeld */,
+			);
+			path = "Mind Coach 3.0";
+			sourceTree = "<group>";
+		};
+		B504B51626A94488004519EC /* Mind Coach 3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B504B51726A94488004519EC /* Mind_Coach_3_0Tests.swift */,
+				B504B51926A94488004519EC /* Info.plist */,
+			);
+			path = "Mind Coach 3.0Tests";
+			sourceTree = "<group>";
+		};
+		B504B52126A94488004519EC /* Mind Coach 3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B504B52226A94488004519EC /* Mind_Coach_3_0UITests.swift */,
+				B504B52426A94488004519EC /* Info.plist */,
+			);
+			path = "Mind Coach 3.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B504B4F926A94486004519EC /* Mind Coach 3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B504B52726A94488004519EC /* Build configuration list for PBXNativeTarget "Mind Coach 3.0" */;
+			buildPhases = (
+				B504B4F626A94486004519EC /* Sources */,
+				B504B4F726A94486004519EC /* Frameworks */,
+				B504B4F826A94486004519EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mind Coach 3.0";
+			productName = "Mind Coach 3.0";
+			productReference = B504B4FA26A94486004519EC /* Mind Coach 3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B504B51226A94488004519EC /* Mind Coach 3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B504B52A26A94488004519EC /* Build configuration list for PBXNativeTarget "Mind Coach 3.0Tests" */;
+			buildPhases = (
+				B504B50F26A94488004519EC /* Sources */,
+				B504B51026A94488004519EC /* Frameworks */,
+				B504B51126A94488004519EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B504B51526A94488004519EC /* PBXTargetDependency */,
+			);
+			name = "Mind Coach 3.0Tests";
+			productName = "Mind Coach 3.0Tests";
+			productReference = B504B51326A94488004519EC /* Mind Coach 3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B504B51D26A94488004519EC /* Mind Coach 3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B504B52D26A94488004519EC /* Build configuration list for PBXNativeTarget "Mind Coach 3.0UITests" */;
+			buildPhases = (
+				B504B51A26A94488004519EC /* Sources */,
+				B504B51B26A94488004519EC /* Frameworks */,
+				B504B51C26A94488004519EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B504B52026A94488004519EC /* PBXTargetDependency */,
+			);
+			name = "Mind Coach 3.0UITests";
+			productName = "Mind Coach 3.0UITests";
+			productReference = B504B51E26A94488004519EC /* Mind Coach 3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B504B4F226A94486004519EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B504B4F926A94486004519EC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B504B51226A94488004519EC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B504B4F926A94486004519EC;
+					};
+					B504B51D26A94488004519EC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B504B4F926A94486004519EC;
+					};
+				};
+			};
+			buildConfigurationList = B504B4F526A94486004519EC /* Build configuration list for PBXProject "Mind Coach 3.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B504B4F126A94486004519EC;
+			productRefGroup = B504B4FB26A94486004519EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B504B4F926A94486004519EC /* Mind Coach 3.0 */,
+				B504B51226A94488004519EC /* Mind Coach 3.0Tests */,
+				B504B51D26A94488004519EC /* Mind Coach 3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B504B4F826A94486004519EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504B50D26A94488004519EC /* LaunchScreen.storyboard in Resources */,
+				B504B50A26A94488004519EC /* Assets.xcassets in Resources */,
+				B504B50526A94486004519EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504B51126A94488004519EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504B51C26A94488004519EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B504B4F626A94486004519EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504B50226A94486004519EC /* ViewController.swift in Sources */,
+				B504B50826A94486004519EC /* Mind_Coach_3_0.xcdatamodeld in Sources */,
+				B504B4FE26A94486004519EC /* AppDelegate.swift in Sources */,
+				B504B50026A94486004519EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504B50F26A94488004519EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504B51826A94488004519EC /* Mind_Coach_3_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504B51A26A94488004519EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504B52326A94488004519EC /* Mind_Coach_3_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B504B51526A94488004519EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B504B4F926A94486004519EC /* Mind Coach 3.0 */;
+			targetProxy = B504B51426A94488004519EC /* PBXContainerItemProxy */;
+		};
+		B504B52026A94488004519EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B504B4F926A94486004519EC /* Mind Coach 3.0 */;
+			targetProxy = B504B51F26A94488004519EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B504B50326A94486004519EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B504B50426A94486004519EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B504B50B26A94488004519EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B504B50C26A94488004519EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B504B52526A94488004519EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B504B52626A94488004519EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B504B52826A94488004519EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind Coach 3.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-With-Klossy.Mind-Coach-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B504B52926A94488004519EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind Coach 3.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-With-Klossy.Mind-Coach-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B504B52B26A94488004519EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind Coach 3.0Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-With-Klossy.Mind-Coach-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind Coach 3.0.app/Mind Coach 3.0";
+			};
+			name = Debug;
+		};
+		B504B52C26A94488004519EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind Coach 3.0Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-With-Klossy.Mind-Coach-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind Coach 3.0.app/Mind Coach 3.0";
+			};
+			name = Release;
+		};
+		B504B52E26A94488004519EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind Coach 3.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-With-Klossy.Mind-Coach-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mind Coach 3.0";
+			};
+			name = Debug;
+		};
+		B504B52F26A94488004519EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind Coach 3.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-With-Klossy.Mind-Coach-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mind Coach 3.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B504B4F526A94486004519EC /* Build configuration list for PBXProject "Mind Coach 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B504B52526A94488004519EC /* Debug */,
+				B504B52626A94488004519EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B504B52726A94488004519EC /* Build configuration list for PBXNativeTarget "Mind Coach 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B504B52826A94488004519EC /* Debug */,
+				B504B52926A94488004519EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B504B52A26A94488004519EC /* Build configuration list for PBXNativeTarget "Mind Coach 3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B504B52B26A94488004519EC /* Debug */,
+				B504B52C26A94488004519EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B504B52D26A94488004519EC /* Build configuration list for PBXNativeTarget "Mind Coach 3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B504B52E26A94488004519EC /* Debug */,
+				B504B52F26A94488004519EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B504B50626A94486004519EC /* Mind_Coach_3_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B504B50726A94486004519EC /* Mind_Coach_3_0.xcdatamodel */,
+			);
+			currentVersion = B504B50726A94486004519EC /* Mind_Coach_3_0.xcdatamodel */;
+			path = Mind_Coach_3_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B504B4F226A94486004519EC /* Project object */;
+}
