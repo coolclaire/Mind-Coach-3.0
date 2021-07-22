@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823F027426AA0F8C003C17C4 /* MemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F027326AA0F8C003C17C4 /* MemeViewController.swift */; };
 		B504B4FE26A94486004519EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B4FD26A94486004519EC /* AppDelegate.swift */; };
 		B504B50026A94486004519EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B4FF26A94486004519EC /* SceneDelegate.swift */; };
 		B504B50226A94486004519EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B50126A94486004519EC /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		823F027326AA0F8C003C17C4 /* MemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeViewController.swift; sourceTree = "<group>"; };
 		B504B4FA26A94486004519EC /* Mind Coach 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind Coach 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B504B4FD26A94486004519EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B504B4FF26A94486004519EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				B504B4FF26A94486004519EC /* SceneDelegate.swift */,
 				B504B50126A94486004519EC /* ViewController.swift */,
 				B504B50326A94486004519EC /* Main.storyboard */,
+				823F027326AA0F8C003C17C4 /* MemeViewController.swift */,
 				B504B50926A94488004519EC /* Assets.xcassets */,
 				B504B50B26A94488004519EC /* LaunchScreen.storyboard */,
 				B504B50E26A94488004519EC /* Info.plist */,
@@ -270,6 +273,7 @@
 				B504B50226A94486004519EC /* ViewController.swift in Sources */,
 				B504B50826A94486004519EC /* Mind_Coach_3_0.xcdatamodeld in Sources */,
 				B504B4FE26A94486004519EC /* AppDelegate.swift in Sources */,
+				823F027426AA0F8C003C17C4 /* MemeViewController.swift in Sources */,
 				B504B53126A944A7004519EC /* NoteViewController.swift in Sources */,
 				B504B50026A94486004519EC /* SceneDelegate.swift in Sources */,
 				B504B53326A944B2004519EC /* EntryViewController.swift in Sources */,
