@@ -16,6 +16,8 @@
 		B504B50D26A94488004519EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B504B50B26A94488004519EC /* LaunchScreen.storyboard */; };
 		B504B51826A94488004519EC /* Mind_Coach_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B51726A94488004519EC /* Mind_Coach_3_0Tests.swift */; };
 		B504B52326A94488004519EC /* Mind_Coach_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B52226A94488004519EC /* Mind_Coach_3_0UITests.swift */; };
+		B504B53126A944A7004519EC /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B53026A944A7004519EC /* NoteViewController.swift */; };
+		B504B53326A944B2004519EC /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504B53226A944B2004519EC /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B504B51E26A94488004519EC /* Mind Coach 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind Coach 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B504B52226A94488004519EC /* Mind_Coach_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_Coach_3_0UITests.swift; sourceTree = "<group>"; };
 		B504B52426A94488004519EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B504B53026A944A7004519EC /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		B504B53226A944B2004519EC /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				B504B50B26A94488004519EC /* LaunchScreen.storyboard */,
 				B504B50E26A94488004519EC /* Info.plist */,
 				B504B50626A94486004519EC /* Mind_Coach_3_0.xcdatamodeld */,
+				B504B53226A944B2004519EC /* EntryViewController.swift */,
+				B504B53026A944A7004519EC /* NoteViewController.swift */,
 			);
 			path = "Mind Coach 3.0";
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 				B504B50226A94486004519EC /* ViewController.swift in Sources */,
 				B504B50826A94486004519EC /* Mind_Coach_3_0.xcdatamodeld in Sources */,
 				B504B4FE26A94486004519EC /* AppDelegate.swift in Sources */,
+				B504B53126A944A7004519EC /* NoteViewController.swift in Sources */,
 				B504B50026A94486004519EC /* SceneDelegate.swift in Sources */,
+				B504B53326A944B2004519EC /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
